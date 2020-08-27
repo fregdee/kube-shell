@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kubectl run -it --rm --restart=Never kube-shell --image=busybox -- sh
